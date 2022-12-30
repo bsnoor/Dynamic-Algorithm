@@ -70,3 +70,8 @@ def allCombinations(X):
             ans = all_sublist[i]
     # Return the answer
     return ans
+
+
+
+
+
