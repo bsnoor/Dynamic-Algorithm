@@ -1,4 +1,12 @@
 def LIS_Greedy(arr):
+    
+     '''
+    * The Greedy Algorithm for LIS
+    * Complexity: O(n)
+    :param arr: number sequence
+    :return: increasing sequence
+    '''
+
     #Edge case : if the input array is empty ,
     # return an empty list
     if (len(arr)<0):
