@@ -22,3 +22,6 @@ def LIS_Greedy(arr):
 
      #Returing the result list and the length of the list
     return [res , len(res)]
+
+
+
