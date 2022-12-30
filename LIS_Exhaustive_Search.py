@@ -69,7 +69,7 @@ def allCombinations(X):
         
  def exhaustiveSearch(arr):
     '''
-    * Solution 2.1 (First Version): The Full Search Algorithm - Exhaustive Search
+    *  The Full Search Algorithm - Exhaustive Search
     * Complexity: O(2^n*n)
     :param arr: number sequence
     :return: increasing sequence
