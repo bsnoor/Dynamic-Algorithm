@@ -12,6 +12,27 @@ def isSorted(arr):
             return False
     # If the loop completes without returning False, the list is sorted in increasing order, so return True
     return True
+
+def plus1(arr):
+    '''
+    * Help Function for LIS_ExhaustiveSearch:
+    * Build a mask binary array of all subsequences
+    * Complexity: O(n)
+    :param arr: array that containing a serial binary number before adding one bit
+    :return: array containing a serial binary number after adding one bit
+    '''
+
+    # Start at the least significant bit (rightmost element) of the binary number
+	
+    i = len(arr) - 1
+    # While the current bit is 1 and there are more bits to the left
+    while i >= 0 and arr[i] == 1:
+        # Set the current bit to 0 and move to the next bit to the left
+        arr[i] = 0
+        i -= 1
+    # If there are more bits to the left and the current bit is 0, set it to 1 and return
+    if i >= 0:
+        arr[i] = 1
   
   
   
