@@ -45,3 +45,7 @@ def minMaxPairs(arr):
         return (arr[0], arr[0])
     else:
         return (min(arr), max(arr))
+
+    
+    
+    
