@@ -6,6 +6,8 @@ def greatThenMedian(arr, check):
     :return: a max element in the array that is greater than the median of the first "check" elements, or None if no such element exists
     '''
     # Initialize the maximum element to the first element of the array
+    
+    
     max_element = arr[0]
 
     # Iterate over the first "check" elements of the array
